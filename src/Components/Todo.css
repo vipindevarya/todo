@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+    background-image: url('./nightsky.jpg');
+    background-size: cover;
+    color: white;
+
+}
+
+header {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header h1 {
+    color: grey;
+}
+
+.input-form {
+    display: flex;
+}
+
+.input {
+    width: auto;
+    appearance: none;
+    border: none;
+    background: none;
+    outline: none;
+    background-color: darkslategray;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    color: lightslategray;
+}
+
+header button {
+    font-size: 1.25rem;
+    border: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+
+}
+
+main {
+    
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+main h3 {
+    color: grey;
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(27, 27, 27);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem 0px;
+    
+
+}
+.todo{
+    height: 100vh;
+    
+    margin: 0rem auto;
+    max-width: 800px;
+    background-color: rgba(0, 0, 0, 0.603);
+}
